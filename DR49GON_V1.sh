@@ -16,7 +16,7 @@ echo ">>>3.HAMMER" [√] | lolcat
 echo ">>>00.Exit" [√] | lolcat
 echo "-------------------------------------" | lolcat
 read -p "Masukan kode perintah : " pill
-if [ $pill ="1" ]
+if [$pill ="1"]
 then
 clear
 echo "Sedang menyiapkan" | lolcat
@@ -26,7 +26,7 @@ cd Facebook
 python2 Hack-FB.py
 fi
 
-if [ $pill ="2" ]
+if [$pill ="2"]
 then
 clear
 sleep 2
@@ -36,7 +36,7 @@ chmod +x pukul.py
 python2 pukul.py
 fi
 
-if [ $pill ="3" ]
+if [$pill ="3"]
 then
 clear
 sleep 2
