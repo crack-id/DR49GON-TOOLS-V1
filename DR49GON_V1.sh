@@ -46,10 +46,5 @@ python hammer.py
 python3 hammer.py -s  -p [80] -t [135]
 fi
 
-if [ $pil "00" ]
-then
-clear
-sleep 2
 echo "Terimakasih telang mengunakan tool ini" | lolcat
-exit
-fi
+
