@@ -15,18 +15,18 @@ echo ">>>2.LUCINTA DDOS" [√] | lolcat
 echo ">>>3.HAMMER" [√] | lolcat
 echo ">>>00.Exit" [√] | lolcat
 echo "-------------------------------------" | lolcat
-read -p "Masukan kode perintah : " $pil
-if [ $pil ="1" ]
+read -p "Masukan kode perintah : " pill
+if [ $pill ="1" ]
 then
 clear
 echo "Sedang menyiapkan" | lolcat
-sleep 1
+sleep 2
 git clone https://github.com/ToxicCyberTeam/Facebook
 cd Facebook
 python2 Hack-FB.py
 fi
 
-if [ $pil ="2" ]
+if [ $pill ="2" ]
 then
 clear
 sleep 2
@@ -36,10 +36,10 @@ chmod +x pukul.py
 python2 pukul.py
 fi
 
-if [ $pil ="3" ]
+if [ $pill ="3" ]
 then
 clear
-sleep 1
+sleep 2
 git clone https://github.com/cyweb/hammer
 cd hammer
 chmod +x hammer.py
