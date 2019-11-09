@@ -19,6 +19,7 @@ read -p "Masukan kode perintah : " $pil
 if [ $pil = "1" ]
 then
 clear
+echo "Sedang menyiapkan" | lolcat
 sleep 1
 git clone https://github.com/ToxicCyberTeam/Facebook
 cd Facebook
