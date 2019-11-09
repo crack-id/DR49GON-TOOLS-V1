@@ -33,6 +33,7 @@ git clone https://github.com/zlucifer/lucita_ddos
 cd lucita_ddos
 chmod +x pukul.py
 python2 pukul.py
+fi
 
 if [ $pil = "3" ]
 then
