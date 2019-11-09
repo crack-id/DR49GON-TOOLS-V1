@@ -16,7 +16,7 @@ echo ">>>3.HAMMER" [√] | lolcat
 echo ">>>00.Exit" [√] | lolcat
 echo "-------------------------------------" | lolcat
 read -p "Masukan kode perintah : " $pil
-if [ $pil = "1" ]
+if [ $pil ="1" ]
 then
 clear
 echo "Sedang menyiapkan" | lolcat
@@ -26,7 +26,7 @@ cd Facebook
 python2 Hack-FB.py
 fi
 
-if [ $pil = "2" ]
+if [ $pil ="2" ]
 then
 clear
 sleep 2
@@ -36,7 +36,7 @@ chmod +x pukul.py
 python2 pukul.py
 fi
 
-if [ $pil = "3" ]
+if [ $pil ="3" ]
 then
 clear
 sleep 1
@@ -46,6 +46,3 @@ chmod +x hammer.py
 python hammer.py
 python3 hammer.py -s  -p [80] -t [135]
 fi
-
-echo "Terimakasih telang mengunakan tool ini" | lolcat
-
